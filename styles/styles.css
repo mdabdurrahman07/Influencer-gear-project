@@ -74,5 +74,19 @@ font-weight: 700;
     position: relative; left: 400px;
 }
 .camera{
-    position: relative; left: -150px; top: -40px;
+    position: relative; left: -140px; top: -40px;
+}
+
+.sponsors-container{
+    display: flex;
+    align-items: center;
+    width: 60.5%;
+    margin: auto;
+    gap: 80px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+.sponsor{
+    width: 100px;
 }
