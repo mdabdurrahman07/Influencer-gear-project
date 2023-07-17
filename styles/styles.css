@@ -166,6 +166,32 @@ padding-left: 10px;
     margin-left: 5px;
 
 }
+.featured-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.featured-text-container h1{
+    color: #0A0826;
+    font-size: 2.4rem;
+    font-weight: 700;
+
+}
+.featured-text-container p{
+    color: #6C6C6C;
+
+font-size: 1rem;
+
+font-weight: 700;
+
+}
+.btn-featured{
+    
+}
+
+
 
 
 
