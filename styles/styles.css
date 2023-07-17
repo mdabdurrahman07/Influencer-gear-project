@@ -9,6 +9,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 80px;
+    margin-bottom: 60px;
+
 }
 nav > ul{
     display: flex;
@@ -28,9 +30,9 @@ font-weight: 700;
 }
 .header-banner-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
    
 }
 .banner-title{
@@ -38,12 +40,14 @@ font-weight: 700;
     font-size: 3.25rem;
     font-weight: 700;
     margin-bottom: 18px;
+    text-align: left;
 }
 .banner-description{
     color: #3A3A3A;
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 18px;
+    text-align: left;
 
 }
 .banner-btn{
@@ -61,5 +65,14 @@ font-weight: 700;
     width: 30px;
     height: 20px;
     margin-bottom: -5px;
+
     
+}
+.Circle{
+    width: 600px;
+    height: 500px;
+    position: relative; left: 400px;
+}
+.camera{
+    position: relative; left: -150px; top: -40px;
 }
