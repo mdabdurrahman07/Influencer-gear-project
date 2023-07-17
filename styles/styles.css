@@ -124,9 +124,12 @@ font-weight: 700;
 
 /* media query  */
 @media screen and (max-width:576px) {
-    nav{
+    nav,
+    .sponsors-container{
         flex-direction: column;
     } 
+   
+  
     nav >h1{
         text-align: center;
         margin-bottom: 8px;
@@ -146,6 +149,16 @@ font-weight: 700;
         height: 310px;
         position: relative; left: 50px; top:-550px;
     }
+    .header-banner-text-container{
+        margin-top: -450px;
+        text-align: center;
+    }
    
-    
+    .header-banner-text-container h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .header-banner-text-container p{
+        text-align: center;
+    }
 }
