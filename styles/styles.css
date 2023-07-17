@@ -90,3 +90,62 @@ font-weight: 700;
 .sponsor{
     width: 100px;
 }
+/* header related style end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query  */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    } 
+    nav >h1{
+        text-align: center;
+        margin-bottom: 8px;
+        margin-top: -50px
+        
+    }
+    .header-banner-container{
+        flex-direction: column-reverse;
+    }
+    .Circle{
+        width: 370px;
+        min-height: 370px;
+        position: relative; left: 5px; top: -130px;
+    }
+    .camera{
+        width: 310px;
+        height: 310px;
+        position: relative; left: 50px; top:-550px;
+    }
+   
+    
+}
