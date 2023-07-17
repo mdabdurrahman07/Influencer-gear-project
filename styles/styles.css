@@ -128,7 +128,17 @@ font-weight: 700;
     .sponsors-container{
         flex-direction: column;
     } 
-   
+    .sponsors-container{
+       width: 90%;
+       margin:0, auto;
+       display: grid;
+       grid-template-columns: repeat(4 , 1fr);
+       gap: 20px;
+    }
+    .sponsor{
+        width: 70px;
+        margin-bottom: 10px;
+    }
   
     nav >h1{
         text-align: center;
