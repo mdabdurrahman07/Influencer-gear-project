@@ -210,6 +210,38 @@ font-weight: 700;
 /* main related style end */
 
 /* footer related styles start */
+.footer-section-container{
+    background: #0A0826;
+    max-width: 100%;
+    height: 239px;
+    text-align: center;
+    
+
+}
+.footer-section-text-container h1{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.footer-section-text-container h3{
+    color: var(--text-gray-300, #D9DBE1);
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+.social-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+
+
 
 
 
